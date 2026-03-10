@@ -1,0 +1,46 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Async HTTP
+httpx[socks]==0.26.0
+aiohttp==3.9.3
+
+# Celery
+celery[redis]==5.3.6
+redis==5.0.1
+
+# Neo4j
+neo4j==5.17.0
+
+# DNS & Network Discovery
+dnspython==2.5.0
+python-whois==0.9.4
+cryptography==42.0.2
+
+# Web Crawling
+playwright==1.41.2
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Fingerprinting
+mmh3==4.1.0
+Pillow==10.2.0
+imagehash==4.3.1
+ssdeep==3.4
+
+# Proxy / Anonymization
+PySocks==1.7.1
+fake-useragent==1.4.0
+aiohttp-socks==0.9.0
+
+# Utilities
+python-dateutil==2.8.2
+tldextract==5.1.1
+ipwhois==1.2.0
+orjson==3.9.12
+python-multipart==0.0.6
+
+# Scheduling
+celery-redbeat==2.2.0
